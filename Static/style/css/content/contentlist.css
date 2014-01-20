@@ -1,0 +1,434 @@
+
+/*list*/
+#list{
+	width:981px;
+	margin:0 auto;
+
+}
+#list .wrap{
+	width:981px;
+	float:left;
+
+}
+/*patch*/
+.patch {
+	float:left;
+	/*border-top:1px solid #ddd;
+	*/width:100%;
+	padding:0 0 5px 0 
+}
+.patch a{
+	margin:0 ;
+	color:#333;
+	text-decoration:none
+}
+.patch a:hover{
+	text-decoration:underline
+}
+.patch span{
+	margin:0 ;
+
+}
+.list_intro{
+	width:235px;
+	height:170px;
+	float:left;
+	margin:0 0 30px 20px;
+	position:relative
+}
+.list_intro a{
+	color:#333;
+	text-decoration:none;
+	cursor:pointer
+}
+.list_intro ul{
+	width:190px;
+	position:absolute;
+	left:22px;
+	bottom:-28px;
+	line-height:18px;
+	background:#fff;
+	text-align:center;
+	padding:5px 0;
+
+}
+.list_intro ul li{
+	width:92%;
+	margin:0px 4%;
+	float:left;
+	display:inline;
+	 line-height:19px;
+
+}
+.list_intro ul li a{
+	color:#333;
+	padding:0 5px;
+	border-right:1px solid #ddd;
+
+}
+.list_intro ul li a:hover{
+	text-decoration:underline
+}
+.list_intro h3{
+	width:92%;
+	margin:0px 4%;
+	float:left;
+	font-size:9pt;
+	display:inline
+}
+.list_info{
+	width:470px;
+	margin-left:0;
+	height:170px;
+
+}
+.list_info .infotext{
+	width:415px;
+
+}
+.list_info img,.list_intro img{
+	height:170px
+}
+
+
+
+#yulelist{
+	width:980px;
+	position:relative;
+	height:120px;
+	color:#fff;
+	text-align:center;
+	font:bold 10pt microsoft yahei,arial;
+	margin-bottom:10px;
+	float:left
+}
+#yulelist img{
+	float:left
+}
+/*list_filter*/
+.list_filter{
+	width:980px;
+	float:left;
+	padding:5px 0;
+	position:relative;
+	_z-index:1;
+
+}
+/*.list_filter div{
+	width:100%;
+	float:left;
+	margin:50px 0;
+
+	}*/
+.list_filter .filterlayout{
+	width:100%;
+	float:left;
+	margin:50px 0 20px 0;
+
+}
+.filter_scroll{
+	position:fixed;
+	top:0px;
+	z-index:99;
+	background:#fff;
+	width:100%;
+	color:#333;
+	left:0;
+	border-bottom:1px solid #ddd;
+
+}
+.filter_scroll .filterlayout{
+	width:981px;
+	margin:0 auto;
+	float:none;
+	position:relative;
+	background: #CCC;
+
+}		
+.list_filter ul{
+	width:auto;
+	float:left;
+	margin-right:20px
+}
+.list_filter .choicesize{
+	width:auto;
+	float:left;
+	line-height:25px;
+
+}
+.list_filter .showall,.page_wrap .showall{
+	width:auto;
+	float:right;
+	line-height:25px;
+	margin-right:30px
+}
+.list_filter .choicesize a,.list_filter .showall a,.page_wrap .showall a{
+	color:#333;
+	text-decoration:none
+}
+.list_filter .choicesize a:hover,.list_filter .showall a:hover,.page_wrap .showall a:hover{
+	text-decoration:underline
+}
+ul#cate {
+	width:120px;
+	float:left;
+	margin-right:30px;
+	position:relative;
+
+}
+ul#cate li {
+	width:100%;
+	float:left;
+	line-height:25px;
+	display:inline;
+
+}
+ul#cate li a {
+	color:#333;
+	float:left;
+	text-align:left;
+	text-decoration:none;
+	padding-right:20px;
+	 background:url(../../img/list/107.gif) no-repeat 80px center
+}
+ul#cate li:hover a, ul#cate li a:hover {
+	color:#333;
+	padding-right:20px;
+
+}
+ul#cate li .sub {
+	width:981px;
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	background:#fff;
+	color:#333;
+	display: none;
+	z-index:999;
+	padding:5px 0;
+
+}
+ul#cate li .row {
+	clear: both;
+	float:left;
+	 width:100%;
+	 margin-bottom: 10px;
+
+}
+ul#cate li .sub ul{
+	width:100%;
+	float:left;
+
+}
+ul#cate .sub ul li {
+	width:100%;
+	/*border-top:1px dashed #efefef*/
+}
+ul#cate .sub ul li a {
+	display:block;
+	text-decoration:none;
+	color: #333;
+	float:left;
+	_padding:0;
+	margin-right:20px;
+	padding:0;
+	line-height:30px;
+
+}
+ul#cate .sub ul li a:hover {
+	text-decoration: underline;
+	_padding:0;
+
+}
+ul#cate .sub strong{
+	color:#666
+}
+/*page*/
+.page_wrap{
+	width:980px;
+	float:left;
+	margin:10px 0 0 0;
+	padding-bottom:10px;
+	border-bottom:1px dashed #ddd
+}
+.page_box{
+	width:auto;
+	float:right;
+	color:#ccc
+}
+.page_box a{
+	color:#333;
+	padding:0 8px;
+	text-decoration:none;
+	line-height:25px;
+	border-right:1px solid #ccc
+}
+.page_box a:hover{
+	font-weight:bold;
+	text-decoration:underline;
+	_font-weight:normal;
+
+}
+.page_box .now{
+	padding:0 8px;
+	font-weight:bold;
+	text-decoration:underline;
+	color:#333;
+	border-right:1px solid #ccc
+}
+.page_box  .arrow_right{
+	border:none
+}
+/*list_select*/
+.select_box {
+	width:120px;
+	/*border:1px solid #ccc;
+	*/padding:0 10px ;
+	background:url(../../img/list/107.gif) no-repeat 90px center;
+	 position:relative;
+	 float:left
+}
+.select_box span {
+	cursor:pointer;
+	 display:block;
+	 line-height:25px;
+	 width:100%;
+	 height:25px;
+	 overflow:hidden;
+	 float:left
+}
+.select_box ul li {
+	cursor:pointer;
+
+}
+.select_box .son_ul {
+	width:140px;
+	 position:absolute;
+	 left:0px;
+	 top:25px;
+	/* border:1px solid #ccc;
+	*/background:#fff;
+	z-index:999;
+	display:none;
+	padding:5px 0
+}
+.select_box .son_ul li {
+	width:50px;
+	display:block;
+	 line-height:30px;
+	 padding:0 10px;
+	 float:left
+}
+.select_box .son_ul .shover {
+	background:#fff;
+	color:#333;
+	text-decoration:underline
+}
+
+/*list_grid*/
+.list_grid {
+width:auto;
+float:left;
+position:relative;
+/*border-left:1px dashed #ddd;
+border-top:1px dashed #ddd;
+*/
+}
+.list_grid .fresh{
+	width:980px;
+	height:100%;
+	background:#fff;
+	background:#fff url(../../img/focus_loading.gif) center 100px  no-repeat;
+	position:absolute;
+	left:0;
+	top:0;
+	background: url(images/focus_loading.gif) center 100px  no-repeat  rgba(255, 255, 255, 0.8);
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity:0.8;
+	 opacity:0.8;
+
+}
+.list_grid ul{
+	width:245px;
+	padding:5px 0px 10px 0px;
+	float:left;
+	/*border-bottom:1px dashed #ddd;
+	border-right:1px dashed #ddd;
+	*/margin-bottom:30px
+}
+.list_grid ul li{
+	width:245px;
+	line-height:22px;
+	float:left;
+	text-align:center;
+	text-overflow : ellipsis ;
+	white-space : nowrap ;
+	/*overflow:hidden;
+	*/display:inline;
+	position:relative
+}
+.list_grid ul li img{
+	width:245px;
+	float:left
+}
+.list_grid ul li .status{
+	width:auto;
+	letter-spacing:0;
+	color:#333;
+	line-height:18px;
+	padding:0 3px;
+	background:#fff;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:9;
+	display:block;
+	text-transform: uppercase;
+
+}
+.list_grid ul li a .size{
+	display:none
+}
+.list_grid ul li a:hover .size{
+	width:100%;
+	padding:2px 0;
+	text-align:center;
+	background:#fff;
+	color:#333;
+	line-height:22px;
+	position:absolute;
+	left:0;
+	bottom:-44px;
+	display:block;
+	z-index:79
+}
+.list_grid ul li a:hover .size .sq{
+	text-decoration:line-through;
+	color:#333;
+
+}
+.list_grid ul li a:hover .size span{
+	width:auto;
+	padding:0 3px
+}
+.list_grid ul li .price{
+	float:none;
+	text-decoration:none
+}
+.list_grid ul li .ex_price{
+	float:none;
+	text-decoration:line-through
+}
+.list_grid ul li a{
+	color:#333;
+	text-decoration:none;
+
+}
+.list_grid ul li a:hover{
+	text-decoration:underline;
+
+}
+.list_grid ul li .back{
+	display:none
+}

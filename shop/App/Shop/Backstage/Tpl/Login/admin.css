@@ -1,0 +1,912 @@
+
+.padsytle_onpc {
+    font-family: arial;
+}
+.padsytle_onpc #com_userbar {
+    font-size: 14px;
+}
+.padsytle_onpc #com_userbar .u_username .u_ddl_con {
+    width: 80px;
+}
+.padsytle_onpc #com_userbar .u_ucenter .u_ddl_con {
+    width: 80px;
+}
+.padsytle_onpc .search .s_nav a, .padsytle_onpc .search .s_nav b {
+    font-size: 16px;
+}
+.padsytle_onpc .search .s_ipt, .padsytle_onpc .search .s_right_region .s_ipt {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #979797;
+    border-radius: 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45) inset;
+    color: #000000;
+    font-size: 18px;
+    height: 38px;
+    padding: 0 10px;
+    vertical-align: middle;
+    width: 561px;
+}
+.padsytle_onpc .search .s_btn {
+    border: 1px solid #979797;
+    color: #000000;
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 0 0 -8px;
+    text-align: center;
+    vertical-align: middle;
+    width: 119px;
+}
+.padsytle_onpc .footer, .forcebypad_footer {
+    border-top: 1px solid #D1D1D1;
+    font-size: 14px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.padsytle_onpc .footer a, .forcebypad_footer a {
+    color: #1D53BF;
+    text-decoration: none;
+}
+.top_banner {
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.top_banner_close {
+    background: url("http://static.tieba.baidu.com/tb/top_banner_client_close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 18px;
+    margin: 6px 12px;
+    position: relative;
+    width: 18px;
+}
+.top_banner_img {
+    display: block;
+    left: 50%;
+    margin-left: -1200px;
+    overflow: hidden;
+    position: absolute;
+    width: 2400px;
+}
+.top_banner_img img {
+    margin: auto;
+}
+.tb_mobile_tip {
+    background: url("/tb/static-common/img/mobile_tip/mobile_tip_bg.jpg") no-repeat scroll center center #D8DCDD;
+    padding: 35px 25px;
+    position: relative;
+    width: 100%;
+}
+.tb_mobile_tip .tb_mobile_tip_title {
+    background: url("/tb/static-common/img/mobile_tip/mobile_tip_icon.png") no-repeat scroll 0 0 / 75px auto rgba(0, 0, 0, 0);
+    font-family: Arial;
+    font-size: 56px;
+    line-height: 56px;
+    padding-left: 70px;
+}
+.tb_mobile_tip .tb_mobile_tip_content {
+    font-family: Arial;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 35px;
+}
+.tb_mobile_tip .tb_mobile_tip_close {
+    background: url("/tb/static-common/img/mobile_tip/mobile_tip_icon.png") no-repeat scroll left bottom / 100% auto rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 60px;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    width: 60px;
+}
+.tb_mobile_tip .ui_text_link {
+    font-family: Arial;
+    text-decoration: none;
+}
+.poptip_wrapper {
+    clear: both;
+    display: block;
+    margin: 2px 14px 1px 5px;
+    overflow: hidden;
+    z-index: 1;
+}
+.poptip_wrapper .poptip_icon {
+    border: 0 none;
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: -50px;
+    width: 50px;
+}
+.poptip_wrapper .poptip_icon img {
+    height: 50px;
+    width: 50px;
+}
+.poptip_wrapper .poptip_textwrapper {
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 60px;
+    text-align: left;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.poptip_noicon .poptip_textwrapper {
+    margin-left: 0;
+}
+.poptip_textlink {
+    float: right;
+}
+.poptip_title {
+    font-weight: 700;
+}
+.tang-pass-pop-login .clearfix:after, .tang-pass-pop-login .pass-form-item:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.tang-pass-pop-login .clearfix, .tang-pass-pop-login .pass-form-item {
+}
+.tang-pass-pop-login dl, .tang-pass-pop-login dt, .tang-pass-pop-login dd, .tang-pass-pop-login ul, .tang-pass-pop-login ol, .tang-pass-pop-login li, .tang-pass-pop-login input, .tang-pass-pop-login p {
+    margin: 0;
+    padding: 0;
+}
+.tang-pass-login a {
+    color: #1B66C7;
+    font-family: Arial,Helvetica,STHeiti,"ËÎÌו";
+    font-size: 12px;
+    text-decoration: none;
+}
+.tang-pass-login a:hover {
+    color: #2E7FDB;
+    text-decoration: underline;
+}
+.tang-pass-pop-login table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tang-pass-pop-login img {
+    border: 0 none;
+}
+.tang-pass-pop-login li {
+    list-style: none outside none;
+}
+.tang-pass-pop-login th {
+    text-align: left;
+}
+.tang-pass-pop-login input, .tang-pass-pop-login textarea, .tang-pass-pop-login select {
+    -moz-box-sizing: content-box;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    outline: 0 none;
+    transition: none 0s ease 0s;
+}
+.tang-pass-login input[type="submit"] {
+    -moz-box-sizing: content-box;
+}
+.tang-pass-pop-login input:-moz-placeholder {
+    color: #CCCCCC;
+}
+.tang-pass-pop-login div.tang-pass-login-hide {
+    position: absolute;
+    top: -999px;
+}
+
+.tang-pass-pop-login {
+    margin: 0 auto;
+    width: 393px;
+}
+.tang-pass-pop-login div.tang-title span {
+    color: #333333;
+    display: block;
+    font-family: "ËÎÌו";
+    font-size: 16px;
+    font-weight: 700;
+    height: 46px;
+    line-height: 46px;
+    margin-right: 29px;
+    overflow: hidden;
+    text-align: left;
+    text-indent: 20px;
+    text-overflow: ellipsis;
+    width: auto;
+}
+.tang-pass-pop-login div.tang-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F7F7F7;
+    border-color: #DDDDDD #DDDDDD -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+}
+.tang-pass-pop-login div.tang-title-dragable {
+    cursor: default;
+    position: relative;
+}
+.tang-pass-pop-login div.tang-title .buttons {
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    width: 16px;
+}
+.tang-pass-pop-login div.tang-title .buttons a {
+    background-repeat: no-repeat;
+    display: block;
+    height: 16px;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    width: 16px;
+}
+.tang-pass-pop-login div.tang-title a.close-btn {
+
+    background-position: -56px -48px;
+}
+.tang-pass-pop-login div.tang-title a.close-btn:hover {
+    background-position: -72px -48px;
+}
+.tang-pass-pop-login div.tang-body {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: #DDDDDD;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+}
+.tang-pass-pop-login div.tang-content {
+    border-top: 1px solid #F2F2F2;
+}
+.tang-pass-pop-login .tang-body .tang-content {
+}
+.tang-pass-pop-login .tang-body .contentFrame {
+    padding: 0;
+}
+.tang-pass-pop-login .tang-body .contentFrame iframe {
+    border: 0 none;
+    height: 100%;
+    width: 100%;
+}
+.tang-pass-pop-login .tang-body {
+    overflow: visible;
+    position: relative;
+}
+.tang-mask {
+    background-color: #FFFFFF;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+}
+.tang-pass-pop-login .pass-login-pop-form {
+    margin-bottom: 15px;
+}
+.tang-pass-pop-login .tang-pass-sms {
+    display: none;
+}
+.tang-pass-pop-login .pass-unamelogin-link {
+    display: none;
+}
+.tang-pass-pop-login .pass-login-pop-content {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+.tang-pass-pop-login .tang-pass-login {
+    position: relative;
+    z-index: 18;
+}
+.tang-pass-pop-login .pass-form-item {
+    margin: 0 0 15px;
+    position: relative;
+    z-index: 18;
+}
+.tang-pass-pop-login .pass-form-item.pass-form-item-userName {
+    z-index: 19;
+}
+.tang-pass-pop-login .pass-label {
+    display: none;
+}
+.tang-pass-pop-login label.pass-label-userName, .tang-pass-pop-login label.pass-label-password, .tang-pass-pop-login label.pass-label-smsPhone {
+    background: url("input_icons_24_c759617.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 24px;
+    left: 6px;
+    overflow: hidden;
+    padding: 0 0 0 24px;
+    position: absolute;
+    top: 8px;
+    width: 0;
+    z-index: 20;
+}
+.tang-pass-pop-login label.pass-label-userName {
+    background-position: 0 -68px;
+}
+.tang-pass-pop-login label.pass-label-password {
+    background-position: 0 -147px;
+}
+.tang-pass-pop-login label.pass-label-smsPhone {
+    background-position: 0 3px;
+}
+.tang-pass-pop-login .pass-form-item-userName label.pass-text-label-focus {
+    background-position: 0 -108px;
+}
+.tang-pass-pop-login .pass-form-item-password label.pass-text-label-focus {
+    background-position: 0 -187px;
+}
+.tang-pass-pop-login .pass-form-item-smsPhone label.pass-text-label-focus {
+    background-position: 0 -37px;
+}
+.tang-pass-pop-login .pass-button {
+    background: none repeat scroll 0 0 #3F89EC;
+    border: 0 none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    height: 48px;
+    transition: all 0.3s ease 0s;
+}
+.tang-pass-pop-login .pass-button:hover {
+    background: none repeat scroll 0 0 #4490F7;
+}
+.tang-pass-pop-login .pass-button:focus {
+    background: none repeat scroll 0 0 #3A84E8;
+}
+.tang-pass-pop-login .pass-item-timer, .tang-pass-pop-login .pass-item-time-timing {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease 0s;
+}
+.tang-pass-pop-login .pass-item-timer {
+    background-color: #F7F7F7;
+    border: 1px solid #DDDDDD;
+    color: #666666;
+}
+.tang-pass-pop-login .pass-item-timer:hover {
+    background-color: #EEEEEE;
+    border-color: #DADADA;
+}
+.tang-pass-pop-login .pass-item-time-timing {
+    background-color: #F6F6F6;
+    border: 1px solid #EBEBEB;
+    color: #999999;
+    cursor: default;
+}
+.tang-pass-pop-login .pass-generalErrorWrapper {
+    margin: 0;
+    padding: 0;
+}
+.tang-pass-pop-login span.pass-generalError {
+    color: #FC4343;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+}
+.tang-pass-pop-login .pass-text-input {
+    border: 1px solid #DDDDDD;
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    padding: 12px 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.tang-pass-pop-login .pass-text-input-focus {
+    border-color: #488EE7;
+}
+.tang-pass-pop-login .pass-text-input-error {
+    border-color: #FC4343;
+}
+.tang-pass-pop-login .pass-form-item-memberPass input {
+    vertical-align: middle;
+}
+.tang-pass-pop-login .pass-form-item-memberPass label {
+    color: #666666;
+    display: inline;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.tang-pass-pop-login .tang-pass-login-phoenix {
+    border-top: 1px solid #EEEEEE;
+    padding-left: 20px;
+    padding-top: 15px;
+    z-index: 16;
+}
+.tang-pass-pop-login .tang-pass-login-phoenix .pass-phoenix-title {
+    color: #666666;
+    font-size: 12px;
+}
+.tang-pass-pop-login .tang-pass-login-phoenix .pass-phoenix-list {
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.tang-pass-pop-login .tang-pass-login-phoenix .pass-phoenix-list-hover {
+    height: auto;
+}
+.tang-pass-pop-login .tang-pass-login-phoenix .pass-phoenix-list:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.tang-pass-login-phoenix .pass-phoenix-list .pass-phoenix-btn {
+    display: inline;
+    float: none;
+}
+.tang-pass-login-phoenix .pass-normal-btn, .tang-pass-login-phoenix .pass-sms-btn, .tang-pass-login-phoenix .pass-qrcode-btn, .tang-pass-login-phoenix .bd-acc-list li {
+    
+    color: #0000CC;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    height: 24px;
+    margin-right: 25px;
+    margin-top: 15px;
+    overflow: hidden;
+    padding-left: 24px;
+    text-decoration: underline;
+    width: 0;
+}
+.tang-pass-pop-login .tang-pass-login-phoenix .pass-phoenix-show {
+    
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    width: 24px;
+}
+.tang-pass-pop-login .tang-pass-login-phoenix .pass-phoenix-show:hover {
+    background-position: -184px -24px;
+}
+.tang-pass-pop-login .tang-pass-login-phoenix .pass-phoenix-list-hover em.pass-phoenix-show {
+    background-position: -200px -24px;
+}
+.tang-pass-pop-login .tang-pass-login-phoenix .pass-phoenix-list-hover em.pass-phoenix-show:hover {
+    background-position: -224px -24px;
+}
+.tang-pass-pop-login-merge .tang-pass-login-phoenix .pass-unamelogin-btn {
+    display: none;
+}
+.tang-pass-pop-login .pass-phoenix-list .pass-normal-btn {
+    background-position: -136px -24px;
+}
+.tang-pass-pop-login .pass-phoenix-list .pass-qrcode-btn {
+    background-position: -64px -24px;
+}
+.tang-pass-pop-login .pass-phoenix-list .pass-sms-btn {
+    background-position: -88px -24px;
+}
+.tang-pass-pop-login .pass-phoenix-list li.bd-acc-tsina {
+    background-position: -64px 0;
+}
+.tang-pass-pop-login .pass-phoenix-list li.bd-acc-renren {
+    background-position: -136px 0;
+}
+.tang-pass-pop-login .pass-phoenix-list li.bd-acc-qzone {
+    background-position: -88px 0;
+}
+.tang-pass-pop-login .pass-phoenix-list li.bd-acc-tqq {
+    background-position: -112px 0;
+}
+.tang-pass-pop-login .pass-phoenix-list li.bd-acc-fetion {
+    background-position: -112px -24px;
+}
+.tang-pass-pop-login .pass-login-pop-feedback {
+    position: absolute;
+    right: -1px;
+    top: 30px;
+}
+.tang-pass-pop-login .pass-login-pop-feedback a.pass-login-pop-feedback-link {
+    background-color: #EDF5FF;
+    border: 1px solid #C7E0FF;
+    color: #4488DD;
+    display: block;
+    font-size: 12px;
+    padding: 10px 6px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    width: 12px;
+}
+.tang-pass-pop-login .pass-form-item-memberPass .pass-fgtpwd {
+    position: absolute;
+    right: 16px;
+}
+.tang-pass-pop-login .pass-form-item-submit .pass-sms-link-back, .tang-pass-pop-login .pass-form-item-submit .pass-reglink {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+.tang-pass-pop-login .pass-form-item-submit .pass-fgtpwd {
+    position: absolute;
+    right: 0;
+    top: -28px;
+}
+.tang-pass-pop-login .pass-register {
+    display: none;
+}
+.tang-pass-pop-login .pass-suggestion-list {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: -moz-use-text-color #DEDEDE #DEDEDE;
+    border-image: none;
+    border-right: 1px solid #DEDEDE;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    left: 0;
+    position: absolute;
+    top: 42px;
+    transition: all 0.3s ease 0s;
+}
+.tang-pass-pop-login li.pass-item-suggsetion {
+    color: #333333;
+    cursor: pointer;
+    font-family: 'ËÎÌו';
+    font-size: 12px;
+    line-height: 14px;
+    padding: 10px 0 10px 6px;
+    position: relative;
+    word-break: break-all;
+}
+.tang-pass-pop-login li.pass-item-suggsetion a {
+    
+    display: none;
+    height: 16px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 16px;
+}
+.tang-pass-pop-login li.pass-item-suggsetion_hover a {
+    display: block;
+}
+.tang-pass-pop-login li.pass-item-suggsetion a:hover {
+    background-position: -104px -48px;
+}
+.tang-pass-pop-login .pass-item-suggsetion_hover {
+    background-color: #F7F7F7;
+}
+.tang-pass-pop-login .pass-form-item .pass-placeholder {
+    color: #CCCCCC;
+    cursor: text;
+    font-size: 14px;
+    height: 12px;
+    left: 0;
+    line-height: 12px;
+    padding: 14px 12px;
+    position: absolute;
+    top: 1px;
+}
+.tang-pass-pop-login .pass-form-item .pass-clearbtn {
+   
+    cursor: pointer;
+    height: 16px;
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    width: 16px;
+}
+.tang-pass-pop-login .pass-form-item .pass-clearbtn:hover {
+    background-position: -104px -48px;
+}
+.tang-pass-pop-login .pass-form-item span.pass-clearbtn-smsVerifyCode, .tang-pass-pop-login .pass-form-item span.pass-clearbtn-verifyCode {
+    left: 165px;
+    right: inherit;
+}
+.tang-pass-pop-login .pass-text-input-verifyCode {
+    float: left;
+}
+.tang-pass-pop-login img.pass-verifyCode {
+   
+    border: 1px solid #DDDDDD;
+    height: 40px;
+    margin-left: 10px;
+    width: 98px;
+}
+.tang-pass-pop-login .pass-verifyCodeImgParent {
+    display: block;
+    float: left;
+    height: 42px;
+}
+.tang-pass-pop-login .pass-change-verifyCode {
+    margin-left: 10px;
+    position: relative;
+    top: 12px;
+}
+.tang-pass-pop-login .tang-pass-qrcode-title {
+    color: #666666;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 15px 0;
+    padding-left: 20px;
+}
+.tang-pass-pop-login .tang-pass-qrcode-content {
+    text-align: center;
+}
+.tang-pass-pop-login .tang-pass-qrcode-info {
+    color: #666666;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 15px 0;
+    padding: 0 20px;
+    text-align: right;
+}
+.tang-pass-pop-login .tang-pass-sms-title {
+    color: #666666;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 28px 0 10px;
+    padding-left: 0;
+}
+.tang-pass-pop-login .tang-pass-sms-tip {
+    color: #999999;
+    font-size: 12px;
+    margin: 0;
+}
+.tang-pass-pop-login .pass-form-item-smsVerifyCode {
+}
+.tang-pass-pop-login .pass-form-item-smsVerifyCode:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.tang-pass-pop-login .pass-form-item-smsVerifyCode .pass-item-timer, .tang-pass-pop-login .pass-form-item-smsVerifyCode .pass-item-time-timing {
+    margin-right: 0;
+}
+.tang-pass-pop-login .pass-text-input-smsVerifyCode {
+    display: inline-block;
+    margin-right: 10px;
+}
+.tang-pass-pop-login .tang-pass-login-choice {
+    padding: 20px;
+}
+.tang-pass-pop-login .tang-pass-login-choice p {
+    color: #666666;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 15px;
+    text-indent: 20px;
+}
+.tang-pass-pop-login .choiceuser-buttons .choiceuser-btn {
+    margin: 40px 0;
+}
+.tang-pass-pop-login .choiceuser-buttons .pass-button {
+    background-color: #F7F7F7;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    color: #666666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    height: 38px;
+    transition: all 0.3s ease 0s;
+}
+.tang-pass-pop-login .choiceuser-buttons .pass-button:hover {
+    background-color: #EEEEEE;
+    border-color: #DADADA;
+}
+.tang-pass-pop-login .choiceuser-buttons .pass-button-choiceuser-username {
+    background-color: #F7F7F7;
+    color: #666666;
+}
+.tang-pass-pop-login .choiceuser-buttons .choiceuser-back {
+    text-align: right;
+}
+.tang-pass-pop-login .choiceuser-buttons .choiceuser-back a {
+    color: #2E7FDB;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.tang-pass-pop-login .pass-form-item .pass-item-selectbtn-userName:hover {
+    background-position: -16px 0;
+}
+.tang-pass-pop-login .pass-form-item span.open {
+    background-position: -40px 0;
+}
+.tang-pass-pop-login .pass-form-item span.open:hover {
+    background-position: -184px 0;
+}
+.tang-pass-pop-login-noimg .tang-pass-login {
+    padding: 0 20px;
+}
+.tang-pass-pop-login-noimg .pass-text-input {
+    width: 330px;
+}
+.tang-pass-pop-login-noimg input.pass-text-input-userName, .tang-pass-pop-login-noimg input.pass-text-input-smsPhone, .tang-pass-pop-login-noimg input.pass-text-input-password {
+    padding-left: 38px;
+    width: 300px;
+}
+.tang-pass-pop-login-noimg input.open {
+    padding-right: 50px;
+    width: 260px;
+}
+.tang-pass-pop-login-noimg .pass-form-item span.pass-placeholder-userName, .tang-pass-pop-login-noimg .pass-form-item span.pass-placeholder-smsPhone, .tang-pass-pop-login-noimg .pass-form-item span.pass-placeholder-password {
+    left: 40px;
+    padding-left: 0;
+}
+.tang-pass-pop-login-noimg .pass-text-input-verifyCode {
+    width: 170px;
+}
+.tang-pass-pop-login-noimg .pass-button-submit {
+    width: 350px;
+}
+.tang-pass-pop-login-noimg .pass-form-item-submit {
+    margin-bottom: 45px;
+}
+.tang-pass-pop-login-noimg .pass-item-timer, .tang-pass-pop-login-noimg .pass-item-time-timing {
+    width: 148px;
+}
+.tang-pass-pop-login-noimg .pass-text-input-smsVerifyCode {
+    width: 168px;
+}
+.tang-pass-pop-login-noimg .pass-suggestion-list {
+    width: 348px;
+}
+.tang-pass-pop-login-noimg .pass-form-item .pass-item-selectbtn-userName {
+    right: 28px;
+}
+.tang-pass-pop-login-noimg .choiceuser-buttons .pass-button {
+    margin-left: 40px;
+    width: 118px;
+}
+.tang-pass-pop-login-img .tang-pass-login {
+    padding-right: 20px;
+}
+.tang-pass-pop-login-img .pass-login-pop-content {
+    width: 270px;
+}
+.tang-pass-pop-login-img .pass-login-pop-form {
+}
+.tang-pass-pop-login-img .pass-text-input {
+    width: 230px;
+}
+.tang-pass-pop-login-img input.pass-text-input-userName, .tang-pass-pop-login-img input.pass-text-input-smsPhone, .tang-pass-pop-login-img input.pass-text-input-password {
+    padding-left: 38px;
+    width: 200px;
+}
+.tang-pass-pop-login-img input.open {
+    padding-right: 50px;
+    width: 160px;
+}
+.tang-pass-pop-login-img .pass-form-item span.pass-clearbtn-verifyCode {
+    left: 65px;
+}
+.tang-pass-pop-login-img .pass-form-item span.pass-clearbtn-smsVerifyCode {
+    left: 105px;
+}
+.tang-pass-pop-login-img .pass-form-item span.pass-placeholder-userName, .tang-pass-pop-login-img .pass-form-item span.pass-placeholder-smsPhone, .tang-pass-pop-login-img .pass-form-item span.pass-placeholder-password {
+    left: 40px;
+    padding-left: 0;
+}
+.tang-pass-pop-login-img .pass-text-input-verifyCode {
+    width: 68px;
+}
+.tang-pass-pop-login-img .pass-button-submit {
+    width: 250px;
+}
+.tang-pass-pop-login-img .tang-pass-login-phoenix {
+    padding-left: 0;
+}
+.tang-pass-pop-login-img .pass-form-item-submit {
+    margin-bottom: 50px;
+}
+.tang-pass-pop-login-img .pass-text-input-smsVerifyCode {
+    width: 108px;
+}
+.tang-pass-pop-login-img .pass-form-item-smsVerifyCode button.pass-item-timer, .tang-pass-pop-login-img .pass-form-item-smsVerifyCode button.pass-item-time-timing {
+    width: 108px;
+}
+.tang-pass-pop-login-img .pass-suggestion-list {
+    left: 0;
+    width: 248px;
+}
+.tang-pass-pop-login-img .pass-form-item .pass-item-selectbtn-userName {
+    right: 22px;
+}
+.tang-pass-pop-login-img .tang-content {
+    padding-left: 20px;
+}
+.tang-pass-pop-login-img .choiceuser-buttons .pass-button {
+    margin-left: 20px;
+    width: 90px;
+}
+
+
+#passport-login-pop input.pass-button-submit, #passport-login-pop .tang-pass-login input.pass-button-submit {
+    background-image: none;
+}
+.wrap2 {
+    height: 100%;
+    min-width: 980px;
+}
+#hd {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+}
+.header {
+    height: 40px;
+    margin: 0 auto;
+    width: 980px;
+}
+.logo {
+    background: url("logo.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: left;
+    height: 30px;
+    margin-top: 5px;
+    width: 92px;
+}
+.bg_container {
+    background: url("login_bg_f102979.jpg") no-repeat fixed center 0 / cover rgba(0, 0, 0, 0);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.login_content {
+    margin: 0 auto;
+    min-height: 615px;
+}
+.login_anchor {
+    background: url("big.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    height: 157px;
+    margin: 0 auto;
+    width: 306px;
+}
+.login_footer {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.35);
+    bottom: 0;
+    color: #FFFFFF;
+    height: 50px;
+    left: auto;
+    line-height: 50px;
+    margin-top: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+.login_footer a, .login_footer a:hover {
+    color: #FFFFFF;
+}
+.login_footer span {
+    margin: 0 12px;
+}

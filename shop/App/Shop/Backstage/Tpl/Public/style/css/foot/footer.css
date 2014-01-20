@@ -1,0 +1,64 @@
+.backToTop {
+    display: none;
+    width: 22px;
+    height: 52px;
+    background: black url(../../img/footer/top.gif) no-repeat 0 0; 
+    position: fixed;
+    _position: absolute;
+    right: 10px;
+    bottom: 100px;
+    _bottom: "auto";
+    cursor: pointer; 
+    opacity: 0.6;
+    filter: Alpha(opacity=60);
+}
+.backToTop:hover{
+    border: 1px solid black;
+}
+
+
+/*尾部开始*/
+#footer_wrap{
+    width:100%;
+    float:right;
+    background:#111;
+    color:#999;
+    margin-top:10px;
+    padding:15px 0 30px 0 ;
+}
+#footer_wrap .footer{
+    width:980px;
+    margin:0 auto;
+}
+#footer_wrap .footer ul{
+    width:195px;
+    float:left; 
+    border-left: 1px dashed #333;
+}
+#footer_wrap .footer ul li{
+    width:90%;
+    padding-left: 10%;
+    float:left;
+    line-height:20px;
+    text-align:left;
+    margin:1px 0
+}
+
+#footer_wrap .footer .backtotop{
+    width:100%;
+    float:left;
+    text-align:center;
+    margin-top:20px;
+    padding:10px 0 0 0;
+    border-top:1px solid #444;
+}
+
+#footer_wrap .footer a{
+    color:#999;
+    text-decoration:none;
+}
+
+#footer_wrap .footer a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
